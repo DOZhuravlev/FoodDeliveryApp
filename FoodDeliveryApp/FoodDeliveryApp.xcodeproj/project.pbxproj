@@ -28,6 +28,7 @@
 		BD8581712BBD69B800C58523 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581702BBD69B800C58523 /* UIFont+Extension.swift */; };
 		BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581722BBD6E7300C58523 /* UIColor+Extension.swift */; };
 		BD8581752BBD710300C58523 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581742BBD710300C58523 /* AppColors.swift */; };
+		BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BD8581702BBD69B800C58523 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		BD8581722BBD6E7300C58523 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BD8581742BBD710300C58523 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		BD85813D2BBD60EC00C58523 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDA08ADF2BCFE9BF00F6D88E /* NavigationLayer */,
 				BD8581522BBD681600C58523 /* Resources */,
 				BD85813E2BBD60EC00C58523 /* AppDelegate.swift */,
 				BD8581402BBD60EC00C58523 /* SceneDelegate.swift */,
@@ -142,6 +145,30 @@
 				BD8581722BBD6E7300C58523 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDA08ADF2BCFE9BF00F6D88E /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BDA08AE12BCFE9FD00F6D88E /* Controllers */,
+				BDA08AE02BCFE9ED00F6D88E /* Coordinators */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		BDA08AE02BCFE9ED00F6D88E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		BDA08AE12BCFE9FD00F6D88E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +260,7 @@
 				BD8581752BBD710300C58523 /* AppColors.swift in Sources */,
 				BD8581412BBD60EC00C58523 /* SceneDelegate.swift in Sources */,
 				BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */,
+				BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
