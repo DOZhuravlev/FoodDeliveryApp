@@ -38,6 +38,7 @@
 		BDA08AF12BCFF30700F6D88E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AF02BCFF30700F6D88E /* TabBarController.swift */; };
 		BDA08AF52BD29A7600F6D88E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AF42BD29A7600F6D88E /* OnboardingViewController.swift */; };
 		BDA08AF72BD29ABE00F6D88E /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AF62BD29ABE00F6D88E /* OnboardingViewPresenter.swift */; };
+		BDA08AF92BD2A66600F6D88E /* OnboardingPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AF82BD2A66600F6D88E /* OnboardingPartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		BDA08AF02BCFF30700F6D88E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BDA08AF42BD29A7600F6D88E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		BDA08AF62BD29ABE00F6D88E /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		BDA08AF82BD2A66600F6D88E /* OnboardingPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 			children = (
 				BDA08AF42BD29A7600F6D88E /* OnboardingViewController.swift */,
 				BDA08AF62BD29ABE00F6D88E /* OnboardingViewPresenter.swift */,
+				BDA08AF82BD2A66600F6D88E /* OnboardingPartViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				BDA08AED2BCFF2BE00F6D88E /* ListCoordinator.swift in Sources */,
 				BDA08AE92BCFF26500F6D88E /* HomeCoordinator.swift in Sources */,
 				BDA08AF12BCFF30700F6D88E /* TabBarController.swift in Sources */,
+				BDA08AF92BD2A66600F6D88E /* OnboardingPartViewController.swift in Sources */,
 				BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */,
 				BDA08AF72BD29ABE00F6D88E /* OnboardingViewPresenter.swift in Sources */,
 				BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */,
