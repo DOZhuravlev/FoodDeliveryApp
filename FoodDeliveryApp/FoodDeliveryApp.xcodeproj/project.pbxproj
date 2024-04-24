@@ -28,6 +28,8 @@
 		BD8581712BBD69B800C58523 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581702BBD69B800C58523 /* UIFont+Extension.swift */; };
 		BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581722BBD6E7300C58523 /* UIColor+Extension.swift */; };
 		BD8581752BBD710300C58523 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581742BBD710300C58523 /* AppColors.swift */; };
+		BD8D4D772BD9A0420098CAE3 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D762BD9A0420098CAE3 /* UserStorage.swift */; };
+		BD8D4D7A2BD9A1D00098CAE3 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D792BD9A1D00098CAE3 /* SceneFactory.swift */; };
 		BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */; };
 		BDA08AE52BCFEDA700F6D88E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE42BCFEDA700F6D88E /* AppCoordinator.swift */; };
 		BDA08AE72BCFEE8C00F6D88E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE62BCFEE8C00F6D88E /* OnboardingCoordinator.swift */; };
@@ -65,6 +67,8 @@
 		BD8581702BBD69B800C58523 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		BD8581722BBD6E7300C58523 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BD8581742BBD710300C58523 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		BD8D4D762BD9A0420098CAE3 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
+		BD8D4D792BD9A1D00098CAE3 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
 		BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BDA08AE42BCFEDA700F6D88E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BDA08AE62BCFEE8C00F6D88E /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 		BD85813D2BBD60EC00C58523 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				BD8D4D752BD9A0280098CAE3 /* ServicesLayer */,
 				BDA08AF22BD29A1700F6D88E /* UILayer */,
 				BDA08ADF2BCFE9BF00F6D88E /* NavigationLayer */,
 				BD8581522BBD681600C58523 /* Resources */,
@@ -168,6 +173,22 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		BD8D4D752BD9A0280098CAE3 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D4D762BD9A0420098CAE3 /* UserStorage.swift */,
+			);
+			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		BD8D4D782BD9A1AF0098CAE3 /* SceneFactory */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D4D792BD9A1D00098CAE3 /* SceneFactory.swift */,
+			);
+			path = SceneFactory;
+			sourceTree = "<group>";
+		};
 		BDA08ADF2BCFE9BF00F6D88E /* NavigationLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +223,7 @@
 		BDA08AF22BD29A1700F6D88E /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
+				BD8D4D782BD9A1AF0098CAE3 /* SceneFactory */,
 				BDA08AF32BD29A5500F6D88E /* Onboarding */,
 			);
 			path = UILayer;
@@ -314,6 +336,8 @@
 				BDA08AE92BCFF26500F6D88E /* HomeCoordinator.swift in Sources */,
 				BDA08AF12BCFF30700F6D88E /* TabBarController.swift in Sources */,
 				BDA08AF92BD2A66600F6D88E /* OnboardingPartViewController.swift in Sources */,
+				BD8D4D772BD9A0420098CAE3 /* UserStorage.swift in Sources */,
+				BD8D4D7A2BD9A1D00098CAE3 /* SceneFactory.swift in Sources */,
 				BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */,
 				BDA08AF72BD29ABE00F6D88E /* OnboardingViewPresenter.swift in Sources */,
 				BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */,
