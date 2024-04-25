@@ -30,6 +30,9 @@
 		BD8581752BBD710300C58523 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8581742BBD710300C58523 /* AppColors.swift */; };
 		BD8D4D772BD9A0420098CAE3 /* UserStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D762BD9A0420098CAE3 /* UserStorage.swift */; };
 		BD8D4D7A2BD9A1D00098CAE3 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D792BD9A1D00098CAE3 /* SceneFactory.swift */; };
+		BD8D4D7D2BDA26000098CAE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D7C2BDA26000098CAE3 /* LoginViewController.swift */; };
+		BD8D4D822BDA26700098CAE3 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D812BDA26700098CAE3 /* BottomView.swift */; };
+		BD8D4D872BDA3B360098CAE3 /* FDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8D4D862BDA3B360098CAE3 /* FDButton.swift */; };
 		BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */; };
 		BDA08AE52BCFEDA700F6D88E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE42BCFEDA700F6D88E /* AppCoordinator.swift */; };
 		BDA08AE72BCFEE8C00F6D88E /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA08AE62BCFEE8C00F6D88E /* OnboardingCoordinator.swift */; };
@@ -69,6 +72,9 @@
 		BD8581742BBD710300C58523 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		BD8D4D762BD9A0420098CAE3 /* UserStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorage.swift; sourceTree = "<group>"; };
 		BD8D4D792BD9A1D00098CAE3 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		BD8D4D7C2BDA26000098CAE3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD8D4D812BDA26700098CAE3 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		BD8D4D862BDA3B360098CAE3 /* FDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDButton.swift; sourceTree = "<group>"; };
 		BDA08AE22BCFEA1200F6D88E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		BDA08AE42BCFEDA700F6D88E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		BDA08AE62BCFEE8C00F6D88E /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
@@ -96,6 +102,7 @@
 		BD8581322BBD60EC00C58523 = {
 			isa = PBXGroup;
 			children = (
+				BD8D4D862BDA3B360098CAE3 /* FDButton.swift */,
 				BD85813D2BBD60EC00C58523 /* FoodDeliveryApp */,
 				BD85813C2BBD60EC00C58523 /* Products */,
 			);
@@ -189,6 +196,63 @@
 			path = SceneFactory;
 			sourceTree = "<group>";
 		};
+		BD8D4D7B2BDA25C70098CAE3 /* AuthScene */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D4D802BDA26580098CAE3 /* Presenters */,
+				BD8D4D7F2BDA26520098CAE3 /* Controllers */,
+				BD8D4D7C2BDA26000098CAE3 /* LoginViewController.swift */,
+				BD8D4D7E2BDA264B0098CAE3 /* Views */,
+			);
+			path = AuthScene;
+			sourceTree = "<group>";
+		};
+		BD8D4D7E2BDA264B0098CAE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D4D812BDA26700098CAE3 /* BottomView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD8D4D7F2BDA26520098CAE3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BD8D4D802BDA26580098CAE3 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		BD8D4D832BDA3AD20098CAE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BD8D4D842BDA3AE00098CAE3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				BD8D4D782BD9A1AF0098CAE3 /* SceneFactory */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		BD8D4D852BDA3AF80098CAE3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BDA08AF32BD29A5500F6D88E /* OnboardingScene */,
+				BD8D4D7B2BDA25C70098CAE3 /* AuthScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		BDA08ADF2BCFE9BF00F6D88E /* NavigationLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,20 +287,21 @@
 		BDA08AF22BD29A1700F6D88E /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
-				BD8D4D782BD9A1AF0098CAE3 /* SceneFactory */,
-				BDA08AF32BD29A5500F6D88E /* Onboarding */,
+				BD8D4D852BDA3AF80098CAE3 /* Scenes */,
+				BD8D4D842BDA3AE00098CAE3 /* Factory */,
+				BD8D4D832BDA3AD20098CAE3 /* Views */,
 			);
 			path = UILayer;
 			sourceTree = "<group>";
 		};
-		BDA08AF32BD29A5500F6D88E /* Onboarding */ = {
+		BDA08AF32BD29A5500F6D88E /* OnboardingScene */ = {
 			isa = PBXGroup;
 			children = (
 				BDA08AF42BD29A7600F6D88E /* OnboardingViewController.swift */,
 				BDA08AF62BD29ABE00F6D88E /* OnboardingViewPresenter.swift */,
 				BDA08AF82BD2A66600F6D88E /* OnboardingPartViewController.swift */,
 			);
-			path = Onboarding;
+			path = OnboardingScene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +395,7 @@
 				BDA08AE52BCFEDA700F6D88E /* AppCoordinator.swift in Sources */,
 				BDA08AEB2BCFF29600F6D88E /* OrderCoordinator.swift in Sources */,
 				BDA08AF52BD29A7600F6D88E /* OnboardingViewController.swift in Sources */,
+				BD8D4D7D2BDA26000098CAE3 /* LoginViewController.swift in Sources */,
 				BD8581412BBD60EC00C58523 /* SceneDelegate.swift in Sources */,
 				BDA08AEF2BCFF2DD00F6D88E /* ProfileCoordinator.swift in Sources */,
 				BDA08AED2BCFF2BE00F6D88E /* ListCoordinator.swift in Sources */,
@@ -339,6 +405,8 @@
 				BD8D4D772BD9A0420098CAE3 /* UserStorage.swift in Sources */,
 				BD8D4D7A2BD9A1D00098CAE3 /* SceneFactory.swift in Sources */,
 				BD8581732BBD6E7300C58523 /* UIColor+Extension.swift in Sources */,
+				BD8D4D822BDA26700098CAE3 /* BottomView.swift in Sources */,
+				BD8D4D872BDA3B360098CAE3 /* FDButton.swift in Sources */,
 				BDA08AF72BD29ABE00F6D88E /* OnboardingViewPresenter.swift in Sources */,
 				BDA08AE32BCFEA1200F6D88E /* Coordinator.swift in Sources */,
 			);
